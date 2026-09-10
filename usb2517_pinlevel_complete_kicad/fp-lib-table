@@ -1,0 +1,1 @@
+(fp_lib_table (lib (name "usb_hub")(type "KiCad")(uri "${KIPRJMOD}/usb_hub.pretty")(options "")(descr "Project footprints")))

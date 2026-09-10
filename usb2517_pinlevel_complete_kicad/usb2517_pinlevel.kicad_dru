@@ -1,0 +1,4 @@
+(version 1)
+(rule "USB diff" (condition "A.NetName =~ 'USB[0-7]_D[+-]'") (constraint track_width (opt 0.25mm)) (constraint diff_pair_gap (opt 0.15mm)) (constraint skew (max 0.5mm)))
+(rule "Port VBUS" (condition "A.NetName =~ 'VBUS_P[1-7]'") (constraint track_width (min 1.5mm) (opt 2mm)))
+(rule "Main 5V" (condition "A.NetName == '5V_LOCAL'") (constraint track_width (min 4mm) (opt 8mm)))

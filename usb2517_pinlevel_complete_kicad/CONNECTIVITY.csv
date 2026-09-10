@@ -1,0 +1,66 @@
+Reference,Pin,Signal,Connected_to
+U1,1,USBDN1_DM,D2;J2 pin 2
+U1,2,USBDN1_DP,D2;J2 pin 3
+U1,3,USBDN2_DM,D3;J3 pin 2
+U1,4,USBDN2_DP,D3;J3 pin 3
+U1,5,VDDA33,3V3 decoupled
+U1,6,USBDN3_DM,D4;J4 pin 2
+U1,7,USBDN3_DP,D4;J4 pin 3
+U1,8,USBDN4_DM,D5;J5 pin 2
+U1,9,USBDN4_DP,D5;J5 pin 3
+U1,10,VDDA33,3V3 decoupled
+U1,11,USBDN5_DM,D6;J6 pin 2
+U1,12,USBDN5_DP,D6;J6 pin 3
+U1,13,CFG_SEL2,10k to GND
+U1,14,LED_B7_N,NC/test pad as documented
+U1,15,LED_A7_N,NC/test pad as documented
+U1,16,LED_B6_N,NC/test pad as documented
+U1,17,LED_A6_N,NC/test pad as documented
+U1,18,LED_B5_N,NC/test pad as documented
+U1,19,TEST,GND
+U1,20,PRTPWR4,U6 EN
+U1,21,OCS4_N,U6 FAULT_N
+U1,22,OCS3_N,U5 FAULT_N
+U1,23,PRTPWR3,U5 EN
+U1,24,VDD33CR,3V3 decoupled
+U1,25,VDD18,1uF to GND only
+U1,26,PRTPWR2,U4 EN
+U1,27,OCS2_N,U4 FAULT_N
+U1,28,OCS1_N,U3 FAULT_N
+U1,29,PRTPWR1,U3 EN
+U1,30,PRTPWR5,U7 EN
+U1,31,LED_A5_N,NC/test pad as documented
+U1,32,LED_B4_N,NC/test pad as documented
+U1,33,LED_A4_N,NC/test pad as documented
+U1,34,LED_B3_N_GANG_EN,NC/test pad as documented
+U1,35,OCS5_N,U7 FAULT_N
+U1,36,PRTPWR7,U9 EN
+U1,37,OCS7_N,U9 FAULT_N
+U1,38,OCS6_N,U8 FAULT_N
+U1,39,PRTPWR6,U8 EN
+U1,40,SDA_SMBDATA,NC/test pad as documented
+U1,41,SCL_SMBCLK,10k to GND
+U1,42,HS_IND_CFG_SEL1,10k to GND
+U1,43,RESET_N,10k to 3V3, 100nF to GND
+U1,44,VBUS_DET,J1 pin 1 via 100k/47k divider
+U1,45,LOCAL_PWR,10k to 3V3
+U1,46,VDD33,3V3 decoupled
+U1,47,LED_A3_N,NC/test pad as documented
+U1,48,LED_B2_N_BOOST1,NC/test pad as documented
+U1,49,LED_A2_N,NC/test pad as documented
+U1,50,LED_B1_N_BOOST0,NC/test pad as documented
+U1,51,LED_A1_N,NC/test pad as documented
+U1,52,VDDA33,3V3 decoupled
+U1,53,USBDN6_DM,D7;J7 pin 2
+U1,54,USBDN6_DP,D7;J7 pin 3
+U1,55,USBDN7_DM,D8;J8 pin 2
+U1,56,USBDN7_DP,D8;J8 pin 3
+U1,57,VDDA33,3V3 decoupled
+U1,58,USBUP_DM,D1;J1 pin 2
+U1,59,USBUP_DP,D1;J1 pin 3
+U1,60,XTAL2,Y1 24MHz and 18pF to GND
+U1,61,XTAL1,Y1 24MHz and 18pF to GND
+U1,62,VDD18PLL,1uF to GND only
+U1,63,RBIAS,RBIAS 12.0k 1% to GND
+U1,64,VDD33PLL,3V3 decoupled
+U1,65,EPAD_GND,GND thermal via array
